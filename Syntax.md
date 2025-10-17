@@ -5,11 +5,12 @@
 One of the first syntax commands I have ever made is a very important one is geode's offical documentation
 The 
 ```
-FLAlertLayer{
-  "Title",
-  "Text",
-  "Button"
-}
+FLAlertLayer::create(
+    "Title",    // title
+    "Hi mom!",  // content
+    "OK"        // button
+)->show();
+
 ```
 
 but in GGD I changed it to be more simpler, even though this is already very simple
