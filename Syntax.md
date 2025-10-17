@@ -6,9 +6,9 @@ One of the first syntax commands I have ever made is a very important one is geo
 The 
 ```
 FLAlertLayer::create(
-    "Title",    // title
-    "Hi mom!",  // content
-    "OK"        // button
+    "Title",
+    "Text",
+    "Button"
 )->show();
 
 ```
