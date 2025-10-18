@@ -55,3 +55,15 @@ But instead for GGD it is
 ```
 CreateButton("Name", Place, ID, Enabled on default?)
 ```
+If you want to make a main menu button, you need to type in
+```
+MMnewButton("Name", Filename, ID)
+```
+
+## Events
+So, the 2nd MOST IMPORTANT thing in modding, events.
+For most things in GD, such as CCTextInputNode, GD and Cocos2d-x use a delegate-based event system
+As an alternative to this system, Geode introduces events.
+These events are still too complex, so we are making a whole MD file about it. (This is line SIX SEVENNNN)
+It is events.md, please check it out :)
+
