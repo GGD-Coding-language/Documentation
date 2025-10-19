@@ -67,3 +67,29 @@ As an alternative to this system, Geode introduces events.
 These events are still too complex, so we are making a whole MD file about it. (This is line SIX SEVENNNN)
 It is events.md, please check it out :)
 
+## Fields
+Kinda like variables, fields are varibles. One is can be connected to how many times a player has jumped
+Here is a example in C++:
+```
+int totalJumps = 0;
+
+class $modify(PlayerObject) {
+    void pushButton(PlayerButton button) {
+
+        totalJumps++;
+        PlayerObject::pushButton(button);
+    }
+};
+```
+This is not even the best way to store jumps, but I made a better way to do this:
+```
+Var <Name Here> = VALUE
+```
+And to store stuff like how many jumps a player makes you can do:
+```
+Var totalJumps = 0
+waitfor pushButton(space):
+    Var totalJumps = totalJumps+1
+    log.info("the player has jumped {totalJumps}")
+    return
+```
